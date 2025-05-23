@@ -56,6 +56,10 @@ O sistema foi desenvolvido utilizando as tecnologias mais atuais do mercado, pri
 - Angular Standalone Components
 - PrimeNG / Tailwind CSS (em desenvolvimento)
 
+### 📱 Mobile (Em breve)
+- Flutter ou React Native (em análise)
+- Integração direta com a API do sistema
+
 ### 🐳 DevOps / Infraestrutura
 - Docker
 - Docker Compose
@@ -84,6 +88,7 @@ O sistema foi desenvolvido utilizando as tecnologias mais atuais do mercado, pri
 - 🔄 Implementação de automações (notificações, alertas e workflows).
 - 🔄 Integrações externas (WhatsApp, e-mail, entre outros).
 - 🔄 Deploy na nuvem para disponibilização da versão beta.
+- 🔄 **Desenvolvimento de aplicativo para dispositivos móveis (Android e iOS).**
 
 ---
 
@@ -93,6 +98,7 @@ O sistema foi desenvolvido utilizando as tecnologias mais atuais do mercado, pri
 - ✅ Foco em produtividade e controle comercial.
 - ✅ Arquitetura escalável e segura.
 - ✅ Modular, podendo crescer conforme as necessidades do cliente.
+- ✅ **Disponível na web e, em breve, no seu celular.**
 
 ---
 
