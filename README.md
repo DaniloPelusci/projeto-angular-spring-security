@@ -1,59 +1,121 @@
-# ProjetoAngularSpringSecurity
+# 🚀 CRM - Sistema de Gestão de Relacionamento com Clientes
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+## Descrição do Projeto
 
-## Development server
+Este projeto é um sistema CRM desenvolvido para otimizar o processo de captação, organização e gestão de clientes, leads e documentos. Focado em atender empresas e profissionais que precisam de mais controle, automação e produtividade no processo comercial.
 
-To start a local development server, run:
+O sistema foi desenvolvido utilizando as tecnologias mais atuais do mercado, priorizando segurança, escalabilidade e uma experiência intuitiva tanto no backend quanto no frontend.
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## ✅ Funcionalidades
 
-## Code scaffolding
+- 🔹 **Gestão de Leads**
+  - Cadastro e acompanhamento de leads.
+  - Controle de status e observações.
+  - Vinculação de leads aos responsáveis (corretores).
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- 🔹 **Histórico de Ações**
+  - Registro de todas as alterações e movimentações dos leads.
+  - Acompanhamento completo das ações realizadas pela equipe.
 
-```bash
-ng generate component component-name
-```
+- 🔹 **Gestão de Documentos**
+  - Upload e armazenamento seguro de documentos.
+  - Vinculação direta dos documentos aos respectivos leads.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- 🔹 **Gestão de Usuários**
+  - Controle de usuários com permissões e papéis específicos.
+  - Roles configuráveis: Administrador, Corretor, Gestor, entre outros.
 
-```bash
-ng generate --help
-```
+- 🔹 **Controle de Acesso e Segurança**
+  - Autenticação e autorização robusta utilizando **Spring Security + JWT**.
+  - Controle refinado de acessos por perfil.
 
-## Building
+- 🔹 **API REST**
+  - Documentada com Swagger.
+  - Totalmente pronta para integração com outros sistemas.
 
-To build the project run:
+- 🔹 **Frontend Moderno**
+  - Desenvolvido com **Angular 19+** utilizando arquitetura de **Standalone Components**.
+  - Layout responsivo e integrado ao backend.
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🏗️ Tecnologias Utilizadas
 
-## Running unit tests
+### 🔥 Backend
+- Java 17+
+- Spring Boot
+- Spring Security (JWT)
+- JPA / Hibernate
+- PostgreSQL
+- Swagger (Documentação da API)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### 💻 Frontend
+- Angular 19+
+- Angular Standalone Components
+- PrimeNG / Tailwind CSS (em desenvolvimento)
 
-```bash
-ng test
-```
+### 🐳 DevOps / Infraestrutura
+- Docker
+- Docker Compose
+- Jenkins (CI/CD)
+- GitLab (Controle de versões e pipelines)
+- SonarQube (Análise de qualidade do código)
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 🛡️ Segurança
 
-```bash
-ng e2e
-```
+- Autenticação via JWT.
+- Controle de permissões baseado em roles.
+- Proteção de endpoints críticos.
+- Dados sensíveis protegidos tanto no backend quanto no armazenamento.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 🚀 Roadmap
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- ✅ Gestão de leads e clientes.
+- ✅ Upload e gestão de documentos.
+- ✅ Controle de usuários e permissões.
+- ✅ Histórico de movimentações.
+- 🔄 Desenvolvimento de dashboard com indicadores e gráficos.
+- 🔄 Implementação de automações (notificações, alertas e workflows).
+- 🔄 Integrações externas (WhatsApp, e-mail, entre outros).
+- 🔄 Deploy na nuvem para disponibilização da versão beta.
+
+---
+
+## 🏆 Diferenciais
+
+- ✅ Plataforma intuitiva e de fácil utilização.
+- ✅ Foco em produtividade e controle comercial.
+- ✅ Arquitetura escalável e segura.
+- ✅ Modular, podendo crescer conforme as necessidades do cliente.
+
+---
+
+## 🤝 Parcerias e Contato
+
+Atualmente estamos buscando empresas e profissionais que desejam participar dos testes da versão beta e contribuir com feedbacks valiosos.
+
+Se você tem interesse em ser um dos primeiros a testar, colaborar ou adquirir a solução, entre em contato:
+
+- 💼 [LinkedIn - Danilo Pelusci](https://www.linkedin.com/in/danilo-pelusci/)
+- 📧 Email: **[Seu email aqui]**
+- 🌐 Em breve site oficial...
+
+---
+
+## ⚙️ Como Executar
+
+> ⚠️ **Em desenvolvimento — Instruções serão disponibilizadas em breve com o ambiente completo Docker + documentação detalhada.**
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
